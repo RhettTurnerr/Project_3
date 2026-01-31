@@ -1,3 +1,22 @@
+import "./Todo.css"
+import React, {useState} from "react"
+import TaskForm from "../../components/TaskForm/TaskForm"
+
 export default function Todo(){
-    return <h1>Todo</h1>
+    const [tasks, setTasks] = useState([]);
+
+    const addTask = (task)=> {
+        const newTasks = [...tasks, task]
+        setTasks(newTasks);
+    }
+
+
+    return (
+        <div className="todo">
+            <h1>Todo</h1>
+            <main>
+                <TaskForm addTask={addTask}></TaskForm>
+            </main>
+        </div>
+    )
 }
