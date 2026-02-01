@@ -1,9 +1,13 @@
 import React from "react";
+import TaskBar from "../TaskBar/TaskBar";
 
-const TaskContainer = ()=> {
+const TaskContainer = ({tasks}) => {
+    const taskList = tasks.map((task)=> 
+        <TaskBar task = {task}></TaskBar>
+    );
     
 
     return;
 }
 
-export default TaskForm;
+export default TaskContainer;
