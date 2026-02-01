@@ -1,0 +1,15 @@
+.incomplete-task{
+    background-color: aqua;
+}
+
+.complete-task{
+    background-color: rgb(0, 38, 255);
+}
+
+.taskBar{
+    border: solid black;
+    background-color: bisque;
+    display: inline-block;
+    padding: 5px;
+    user-select: none;
+}

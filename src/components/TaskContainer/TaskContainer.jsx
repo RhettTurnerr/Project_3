@@ -1,5 +1,6 @@
 import React from "react";
 import TaskBar from "../TaskBar/TaskBar";
+import "./TaskContainer.css"
 
 const TaskContainer = ({tasks}) => {
     const taskList = tasks.map((task)=> (
@@ -7,7 +8,7 @@ const TaskContainer = ({tasks}) => {
     ));
     
 
-    return taskList;
+    return <section className="task-container">{taskList}</section>;
 }
 
 export default TaskContainer;
