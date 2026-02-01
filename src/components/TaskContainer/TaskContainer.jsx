@@ -2,7 +2,7 @@ import React from "react";
 import TaskBar from "../TaskBar/TaskBar";
 import "./TaskContainer.css"
 
-const TaskContainer = ({tasks}) => {
+const TaskContainer = ({tasks, deleteTask}) => {
     const taskList = tasks.map((task)=> (
         <TaskBar task = {task} key = {task}></TaskBar>
     ));

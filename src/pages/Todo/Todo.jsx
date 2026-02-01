@@ -11,13 +11,17 @@ export default function Todo(){
         setTasks(newTasks);
     }
 
+    const deleteTask = (task)=>{
+        const newTasks = tasks.filter(originalTask => originalTask!=task);
+        setTasks(newTasks);
+    }
 
     return (
         <div className="todo">
             <h1>Todo</h1>
             <main>
                 <TaskForm addTask={addTask}></TaskForm>
-                <TaskContainer tasks = {tasks}></TaskContainer>
+                <TaskContainer tasks = {tasks} deleteTask = {deleteTask}></TaskContainer>
             </main>
         </div>
     )
