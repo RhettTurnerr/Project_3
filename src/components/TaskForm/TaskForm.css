@@ -2,10 +2,14 @@
     display: flex;
     justify-content: center;
     background-color:bisque;
-    height: 70px;
+    height: 50px;
     border: solid black;
     margin: 0px 20px;
     align-items: center;
+    width: 50vw;
+    margin: auto;
+    min-width: 290px;
+    
 }
 
 .form-row{
@@ -18,5 +22,5 @@ button{
     width: 35px;
     background-color: rgb(237, 230, 221);
     user-select: none;
-    box-shadow: 2px 2px 2px rgb(96, 96, 96)
+    box-shadow: 2px 2px 2px rgb(96, 86, 73)
 }
