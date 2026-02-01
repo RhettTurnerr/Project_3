@@ -1,5 +1,5 @@
 import "./Todo.css"
-import React, {useState} from "react"
+import {useState} from "react"
 import TaskForm from "../../components/TaskForm/TaskForm"
 import TaskContainer from "../../components/TaskContainer/TaskContainer";
 
