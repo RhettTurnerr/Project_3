@@ -17,7 +17,7 @@ export default function Todo(){
             <h1>Todo</h1>
             <main>
                 <TaskForm addTask={addTask}></TaskForm>
-                <TaskContainer></TaskContainer>
+                <TaskContainer tasks = {tasks}></TaskContainer>
             </main>
         </div>
     )
