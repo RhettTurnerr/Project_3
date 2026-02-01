@@ -4,7 +4,7 @@ import "./TaskContainer.css"
 
 const TaskContainer = ({tasks, deleteTask}) => {
     const taskList = tasks.map((task)=> (
-        <TaskBar task = {task} key = {task}></TaskBar>
+        <TaskBar task = {task} key = {task} deleteTask = {deleteTask}></TaskBar>
     ));
     
 

@@ -1,12 +1,17 @@
 import React, {useState} from "react";
 import "./TaskBar.css"
 
-const TaskBar = ({task}) =>{
+const TaskBar = ({task, deleteTask}) =>{
     const [complete, setState] = useState(false);
 
     const handleClick = ()=> {
         setState(!complete);
-        console.log("test");
+    };
+
+    const handleDelete = (e)=>{
+        e.preventDefault();
+        e.stopPropagation();
+        deleteTask(task);
     };
 
     const cardContent = complete ? 
@@ -15,6 +20,7 @@ const TaskBar = ({task}) =>{
     return (
         <div className="taskBar" onClick={handleClick}>
             {cardContent}
+            <span className="delete-task" onClick={handleDelete}>X</span>
         </div>
     );
 }
