@@ -9,8 +9,8 @@ This is a website that has a Todo page and a Contact page. In the Todo page the 
 * The user will click the contact page to navigate to the contact page. They will then input their name, email, and comments about the page. They will then click submit. They will then click todos page to navigate to todos page. They will then enter a task and click add. They will enter another task and it will appear below the first one. The user will then click the box next to the first task marking it complete.
 
 ## Wireframes
-![Wireframe](./Wireframes/Project3_todos-page.pdf)
-![Wireframe](./Wireframes/Project3_contact-page.pdf)
+![Wireframe](./Wireframes/Project3_todos-page.png)
+![Wireframe](./Wireframes/Project3_todos-page.png)
 
 ## Funtionality:
 * Users can navigate to Todo page where they can enter tasks that will be displayed as well as deleted and marked complete.
