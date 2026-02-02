@@ -2,7 +2,7 @@ import "./ContactForm.css";
 
 const ContactForm = () => {
   const handleSubmit = (e) => {
-    e.preventDefault();
+    return;
   };
   return (
     <section className="contact-form">
