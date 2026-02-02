@@ -1,0 +1,14 @@
+.complete-task{
+    
+    text-decoration: line-through;
+}
+
+.taskBar{
+    border: solid black;
+    border-width: 2px;
+    background-color: bisque;
+    display: flex;
+    padding: 10px;
+    user-select: none;
+    justify-content: space-between;
+}
