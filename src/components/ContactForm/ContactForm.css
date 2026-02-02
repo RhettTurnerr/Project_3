@@ -1,0 +1,23 @@
+.contact-form{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: bisque;
+    margin: 0px 20px;
+    border: solid black;
+    padding: 10px;
+    width: 50vw;
+    justify-self: center;
+    height: 150px;
+    align-items: center;
+}
+
+.contact-form-row{
+    padding: 5px 5px;
+}
+
+@media screen and (max-width:600px){
+    .contact-form{
+        width: 300px;
+    }
+}

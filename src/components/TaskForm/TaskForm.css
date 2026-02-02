@@ -17,7 +17,7 @@
     gap: 5px;
 }
 
-button{
+.task-form-submit{
     border-radius: 4px;
     width: 35px;
     background-color: rgb(237, 230, 221);

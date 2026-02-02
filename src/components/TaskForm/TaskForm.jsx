@@ -20,7 +20,7 @@ const TaskForm = ({addTask}) => {
             Enter Task:
             <input type="text" name="task" placeholder="EX: take out trash" />
           </label>
-          <button type="submit">Add</button>
+          <button type="submit" className="task-form-submit">Add</button>
         </div>
       </form>
     </section>
