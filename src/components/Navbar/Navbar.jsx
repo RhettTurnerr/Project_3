@@ -6,7 +6,7 @@ import { Link , useMatch, useResolvedPath} from "react-router-dom";
 export default function Navbar(){
 
     return <nav className="nav">
-        <Link to="/home">Logo</Link>
+        <a href="#">Logo</a>
         <ul>
             <MyLink to="/todo" className="nav-todo">ToDo</MyLink>
             <MyLink to="/contact" className="nav-contact">Contact</MyLink>
