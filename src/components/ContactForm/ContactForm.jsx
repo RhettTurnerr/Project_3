@@ -1,8 +1,8 @@
 import "./ContactForm.css";
 
 const ContactForm = () => {
-  const handleSubmit = () => {
-    console.log("test");
+  const handleSubmit = (e) => {
+    return;
   };
   return (
     <section className="contact-form">
@@ -30,10 +30,12 @@ const ContactForm = () => {
             />
           </label>
         </div>
-        <div className="contact-form-row">
+        <div className="contact-button-row">
           <button type="reset" className="contact-reset-button">
             Clear
           </button>
+        </div>
+        <div className="contact-button-row">
           <button type="submit" className="contact-submit-button">
             Submit
           </button>
