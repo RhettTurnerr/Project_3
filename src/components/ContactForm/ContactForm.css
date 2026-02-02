@@ -16,6 +16,22 @@
     padding: 5px 5px;
 }
 
+.contact-button-row{
+    padding-bottom: 2px;
+}
+
+.contact-reset-button, .contact-submit-button{
+    border-radius: 4px;
+    background-color: rgb(237, 230, 221);
+    user-select: none;
+    box-shadow: 2px 2px 2px rgb(96, 86, 73);
+    padding: 1px 3px;
+}   
+
+.contact-reset-button:hover, .contact-submit-button:hover{
+    background-color: aquamarine;
+}
+
 @media screen and (max-width:600px){
     .contact-form{
         width: 300px;
