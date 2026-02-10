@@ -8,7 +8,7 @@ export default function Navbar(){
     return <nav className="nav">
         <a href="#">Logo</a>
         <ul>
-            <MyLink to="/todo" className="nav-todo">ToDo</MyLink>
+            <MyLink to="/" className="nav-todo">ToDo</MyLink>
             <MyLink to="/contact" className="nav-contact">Contact</MyLink>
         </ul>
         {}
